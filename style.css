@@ -1,0 +1,56 @@
+/* Custom Dynamic Seasonal Motif Backgrounds */
+        .season-pattern-lebaran {
+            background-color: #022c22;
+            background-image: radial-gradient(#d97706 0.75px, transparent 0.75px), radial-gradient(#ea580c 0.75px, #022c22 0.75px);
+            background-size: 30px 30px;
+            background-position: 0 0, 15px 15px;
+        }
+
+        .season-pattern-nataru {
+            background-color: #090d16;
+            background-image: radial-gradient(#38bdf8 0.75px, transparent 0.75px), radial-gradient(#f59e0b 0.75px, #090d16 0.75px);
+            background-size: 30px 30px;
+            background-position: 0 0, 15px 15px;
+        }
+
+        .season-pattern-standard {
+            background-color: #1e1b4b;
+            background-image: radial-gradient(#818cf8 0.75px, transparent 0.75px), radial-gradient(#f43f5e 0.75px, #1e1b4b 0.75px);
+            background-size: 30px 30px;
+            background-position: 0 0, 15px 15px;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.90);
+            backdrop-filter: blur(14px);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+        }
+
+        .glass-card-dark {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(14px);
+            border: 1px solid rgba(245, 158, 11, 0.25);
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #fdfbf7;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #ea580c;
+            border-radius: 4px;
+        }
+
+        .route-line {
+            stroke-dasharray: 6;
+            animation: dash 1.5s linear infinite;
+        }
+
+        @keyframes dash {
+            to {
+                stroke-dashoffset: -24;
+            }
+        }
